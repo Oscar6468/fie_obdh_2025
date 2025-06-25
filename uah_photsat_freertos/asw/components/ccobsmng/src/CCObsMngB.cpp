@@ -20,7 +20,7 @@ CCObsMng::EDROOM_CTX_Top_0::EDROOM_CTX_Top_0(CCObsMng &act,
 	ObservTimer(EDROOMcomponent.ObservTimer),
 	AttCtrlTimer(EDROOMcomponent.AttCtrlTimer),
 	CAttitudePeriod(0,100000),
-	CImageInterval(0,500000),
+	CImageInterval(2,000000),
 	VNextTimeOut(EDROOMpVarVNextTimeOut)
 {
 }
@@ -34,7 +34,7 @@ CCObsMng::EDROOM_CTX_Top_0::EDROOM_CTX_Top_0(EDROOM_CTX_Top_0 &context):
 	ObservTimer(context.ObservTimer),
 	AttCtrlTimer(context.AttCtrlTimer),
 	CAttitudePeriod(0,100000),
-	CImageInterval(0,500000),
+	CImageInterval(2,000000),
 	VNextTimeOut(context.VNextTimeOut)
 {
 
