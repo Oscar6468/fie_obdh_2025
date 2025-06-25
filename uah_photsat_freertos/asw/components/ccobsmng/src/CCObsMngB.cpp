@@ -117,7 +117,7 @@ void	CCObsMng::EDROOM_CTX_Top_0::FInit()
  
  VNextTimeOut=time;
  
-pus_service129_startup();
+pus_service129_init();
    //Program absolute timer 
    AttCtrlTimer.InformAt( time ); 
 }
